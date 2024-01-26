@@ -5,9 +5,9 @@ import Link from "next/link";
 function HomePage() {
   return (
     <div>
-      <Carousel />
-      <OurCategories />
-      <Footer />
+      {/* <Carousel /> */}
+      {/* <OurCategories /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

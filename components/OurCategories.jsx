@@ -23,12 +23,12 @@ const OurCategories = () => {
             <div key={categorie.name} className="card w-30     ">
               <figure>
                 <img
-                  src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
+                  className="mask mask-circle"
+                  src="https://daisyui.com/images/stock/photo-1567653418876-5bb0e566e1c2.jpg"
                 />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">{categorie.name} </h2>
+                <h2 className="card-title  ">{categorie.name} </h2>
 
                 <div className="card-actions ">
                   <p> {categorie.quantity} </p>
