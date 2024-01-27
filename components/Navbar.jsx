@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       {/* mobile menu */}
-      <div className=" md:hidden navbar flex justify-between px-4 bg-base-300">
+      <div className=" md:hidden navbar flex justify-between px-4 ">
         <div className="">
           <button className="btn btn-square btn-ghost">
             <svg
@@ -54,8 +54,8 @@ const Navbar = () => {
         </div>
       </div>
       {/* desktop menu */}
-      <div className=" hidden md:flex navbar justify-around  px-4 bg-base-300">
-        <h1>Logo</h1>
+      <div className=" mx-auto  max-w-screen-2xl hidden md:flex navbar justify-around  bg-amber-300 px-4 ">
+        <Link href={"/"}>Logo</Link>
         <input placeholder="Search for products..." type="text" />
         <Link href="/wishlist" className="btn btn-circle btn-outline">
           wishlist
@@ -64,6 +64,7 @@ const Navbar = () => {
           compare
         </Link>
         <Link href="/">Login/Register</Link>
+        <button>Cart</button>
       </div>
     </div>
   );
